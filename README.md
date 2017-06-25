@@ -11,5 +11,21 @@ Read on google drive [here](https://docs.google.com/document/d/1zgLUBg15dfQ-6Ld4
 ## Setup
 
 ```
-make install
+npm i promo-code-generator
 ```
+
+## Generate promo-code from terminal
+promo-code -p [pattern]
+
+### Example
+- Input
+```
+promo-code -p XX-XXXX1234
+```
+- Output
+```
+DR-GTHY3654
+```
+> by default promo-code pattern is XX-XXXX1234
+
+> Letters from your pattern will be converted to random letter and numbers to random numbers 
