@@ -1,7 +1,7 @@
 install: install-deps
 
 run:
-	npm run babel-node -- 'src/bin/hexlet.js' 10
+	npm run babel-node -- 'src/promo-code.js'
 
 install-deps:
 	yarn
