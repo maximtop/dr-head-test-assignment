@@ -1,7 +1,7 @@
 install: install-deps
 
 run:
-	npm run babel-node -- 'src/promo-code.js'
+	npm run babel-node -- 'src/bin/promo-code.js'
 
 install-deps:
 	yarn

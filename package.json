@@ -1,6 +1,6 @@
 {
   "name": "promo-code-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "bin": {
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/maximtop/dr-head-test-assignment.git"
   },
-  "author": "Kirill Mokevnin",
-  "license": "ISC",
+  "author": "Maxim Topciu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maximtop/dr-head-test-assignment/issues"
   },
@@ -37,5 +37,8 @@
     "eslint-plugin-import": "*",
     "eslint-plugin-jest": "*",
     "jest": "*"
+  },
+  "dependencies": {
+    "commander": "^2.10.0"
   }
 }

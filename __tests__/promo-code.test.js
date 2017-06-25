@@ -1,5 +1,9 @@
 import promoCode from '../src';
 
-test('promo-code', () => {
-  expect(promoCode()).toBe(3);
+describe('Test promo-code function', () => {
+  test('promo-code length must be equal to pattern length', () => {
+    const pattern = 'XX-XXXX123';
+    expect(promoCode(pattern).length).toBe(pattern.length);
+  });
 });
+
